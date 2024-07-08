@@ -186,4 +186,153 @@ h1 {
   height: 986.07px;
   border: 2px solid red;
   margin: 0 auto;
+  position: relative;
 }
+
+.holiday-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+.holiday-text-container h5{
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-text-container h2{
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-text-container p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.solid-color{
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top:76.8%;
+}
+
+.giftbox{
+  width: 796.46px;
+  height: 662.07px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.second-container{
+  
+  position: absolute;
+  width: 305.69px;
+  height: 305.69px;
+  left: 1114px;
+  right: -99.69px;
+  top: 4002px;
+  bottom: -3321.62px;
+  
+
+}
+
+/*our portfolio*/
+.our-portfolio{
+  width: 1320px;
+  height: 1163px;
+  border: 2px solid green;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.portfolio-text h2{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+
+}
+
+.portfolio-text p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.iteam{
+  width: 424px;
+  height: 450px;
+}
+.iteam img{
+  width: 100%;
+  height: 100%;
+}
+
+.porfolio-iteam{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+/*newsletter start here*/
+
+.newsletter-container{
+  width: 1320px;
+  height: 616px;
+  border: 2 px solid red;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  
+
+}
+
+.newsletter-contnt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.newsletter-contnt h2{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+
+  
+}
+
+.newsletter-contnt p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+#form{
+  
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
