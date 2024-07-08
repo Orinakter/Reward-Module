@@ -179,3 +179,11 @@ h1 {
   background-color: rgb(255, 0, 0);
 }
 
+/*holiday section starts here*/
+
+.holiday-section-container{
+  width: 1320px;
+  height: 986.07px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
