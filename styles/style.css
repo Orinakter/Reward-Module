@@ -148,3 +148,34 @@ h1 {
   width: 349.16px;
   height: 464.65px;
 }
+
+/*hotel-park-starts here*/
+.new-park-hotel-containter{
+  width: 1320px;
+  height: 482px;
+  border: 2px solid palevioletred;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  margin: 50px;
+}
+
+.hotel-content{
+  font-family:Inter;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+
+}
+.color{
+  width: 167px;
+  height: 56px;
+  background-color: rgb(255, 0, 0);
+}
+
